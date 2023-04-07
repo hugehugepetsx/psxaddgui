@@ -14,6 +14,8 @@ local TextBox = Instance.new("TextBox")
 --Properties:
 
 Frame.Draggable = true
+Frame.Selectable = true
+Frame.Active = true
 ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
